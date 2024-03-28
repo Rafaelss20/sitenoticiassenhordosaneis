@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+
+    h1 {
+        color: white;
+    }
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+    li {
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
+p{
+    color:black;
+    text-align:left;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background: no-repeat center/cover url(../img/senhordosaneis2.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1,h2 {
+        color: white;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    .news{
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        padding: 0 20% 0;
+        margin-top: 20%;
+
+        h1{
+            color: white;
+            font-size:25px;
+        }
+        
+        
+        .news1{
+            flex:1;
+            background-color: gray;
+            display:flex;
+        }
+
+        .news2{
+            flex:1;
+            display: flex;
+            background-color: darkgray;
+        }
+
+        .news3{
+            flex:1;
+            display: flex;
+            background-color: grey;
+        }
+    }
+
+}
+
+.noticias {
+    background-color: white;
+    display: flex;
+    padding: 0 10% 0;
+    width: 100%;
+    height: 1000px;
+
+    .ultimas-noticias {
+        display: flex;
+        flex-direction: column;
+        flex: 2;
+        width: 100%;
+        background-color: white;
+
+        .noticias-div {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: 20px;
+            background-color: white;
+            flex-wrap: wrap;
+
+            .noticias-item{
+                display: flex;
+                width: 40%;
+                margin: 20px;
+                height: 400px;
+                background-color: white;
+                flex-direction: column;
+                
+                .data{
+                    border: 5px solid gray;
+                    border-width: medium;
+                    background-color: gray;
+
+                    h1{
+                        color:white;
+                    }
+                   
+                } 
+               
+               
+                .imagem1{
+                    
+                    height: 100%;
+                    background: url(../img/senhordosaneis4.jpeg);
+                    background-repeat: no-repeat;
+                    background-size:contain;
+                    
+                    
+                }
+
+                .texto1{
+                    display: flex;
+                    font-size:smaller;
+                    
+                    
+                }
+
+                
+            
+        
+            }
+        }
+    }
+}
+
+
+
+    .departamento {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        width: 100%;
+        background-color: white;
+
+        .departamento-div{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: 20px;
+            background-color: white;
+            flex-wrap: wrap;
+
+            .departamento-item{
+                display: flex;
+                width: 100%;
+                margin: 20px;
+                height: 200px;
+                background-color: white;
+                flex-direction: column;
+
+                .departamento-img{
+                    height: 100%;
+                    background: url(../img/senhordosaneis3.jpg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                }
+
+               
+                .texto2{
+                    display: flex;
+                    font-size: small;
+                }
+
+                
+            }
+            
+        }
+           
+    }
+    
+}
